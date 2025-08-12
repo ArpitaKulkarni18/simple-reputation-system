@@ -12,5 +12,8 @@ To create an easy-to-integrate reputation layer that can be plugged into decentr
 - Integrate with decentralized identity solutions for richer profiles.
 - Add events/logging for reputation changes.
 
-## Contract Address
-**To be deployed — replace with actual deployed address after contract deployment**
+## Contract 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0123ac43-64f8-414a-9e03-8c207d47d0b1" />
+
+## Contract address
+ST3NDNCESZPDW65DXB3P1X6H04WGMEXZKNFR8JYP.simple-reputation-system
