@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: simple-reputation-system
+            expected-sender: ST3NDNCESZPDW65DXB3P1X6H04WGMEXZKNFR8JYP
+            cost: 6570
+            path: "contracts\\simple-reputation-system.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
